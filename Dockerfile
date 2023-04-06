@@ -26,7 +26,7 @@ RUN ln -sf /usr/local/hugo/hugo /usr/local/bin/hugo
 
 WORKDIR /usr/local/qexo
 
-RUN wget https://raw.githubusercontent.com/Qexo/Qexo/master/requirements.txt
+RUN wget https://raw.githubusercontent.com/Qexo/Qexo/dev/requirements.txt
 
 RUN pip install -r requirements.txt
 
